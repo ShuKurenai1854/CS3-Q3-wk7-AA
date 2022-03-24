@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Make-up Practical Test (Q3)</title>
+  </head>
+  <body>
+    <script src="script.js"></script>
+    Hello world
+    <p>Name: <input type="text" id="name"></p>
+    <p>Section and Class Number: <input type="text" id="cn"></p>
+    <h3>Subject 1</h3>
+    <ul>
+      <li>Req 1 Score (HPS: 20): <input type="text" id="s1req1"></li>
+      <li>Req 2 Score (HPS: 30): <input type="text" id="s1req2"></li>
+      <li>Req 3 Score (HPS: 50): <input type="text" id="s1req3"></li>
+    </ul>
+    <p>Tentative Grade: <b id="s1Tenta"></b></p>
+    <p>Previous Grade: <input type="text" id="s1Previous"></p>
+    <p>Final Grade: <b id="s1Final"></b></p>
+    <h3>Subject 2</h3>
+    <ul>
+      <li>Req 1 Score (HPS: 20): <input type="text" id="s2req1"></li>
+      <li>Req 2 Score (HPS: 30): <input type="text" id="s2req2"></li>
+      <li>Req 3 Score (HPS: 50): <input type="text" id="s2req3"></li>
+    </ul>
+    <p>Tentative Grade: <b id="s2Tenta"></b></p>
+    <p>Previous Grade: <input type="text" id="s2Previous"></p>
+    <p>Final Grade: <b id="s2Final"></b></p>
+    <h3>Subject 3</h3>
+    <ul>
+      <li>Req 1 Score (HPS: 20): <input type="text" id="s3req1"></li>
+      <li>Req 2 Score (HPS: 30): <input type="text" id="s3req2"></li>
+      <li>Req 3 Score (HPS: 50): <input type="text" id="s3req3"></li>
+    </ul>
+    <p>Tentative Grade: <b id="s3Tenta"></b></p>
+    <p>Previous Grade: <input type="text" id="s3Previous"></p>
+    <p>Final Grade: <b id="s3Final"></b></p>
+    <br>
+    <p>Average Grade: <b id="average"></b></p>
+    <p>General Weighted Average: <b id="averageRounded"></b></p>
+    <button onclick="calcGrade()">Calculate Grade</button>
+  </body>
+</html>
